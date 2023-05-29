@@ -28,7 +28,7 @@ export default function Invoice() {
         position="absolute"
         top="10%"
         width="100%"
-        zIndex="-1"
+        zIndex="1"
         bottom="0"
         borderRadius="8px"
       >

@@ -5,7 +5,6 @@ import master from "../assets/mastercard-2.svg";
 
 export default function Card() {
   return (
-    <Box>
       <Flex
         position="absolute"
         left="0"
@@ -21,6 +20,7 @@ export default function Card() {
         padding="1.5em"
         borderRadius="1em"
         boxShadow="0px 4px 14px 2px rgba(224, 224, 224, 0.6)"
+        zIndex="2"
       >
         <Flex
           justifyContent="space-between"
@@ -98,6 +98,5 @@ export default function Card() {
           <Image src={master} height="3em" width="auto" />
         </Flex>
       </Flex>
-    </Box>
   );
 }
